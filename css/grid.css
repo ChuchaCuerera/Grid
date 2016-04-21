@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+body{
+	margin: 0;
+
+	}
+
+.arriba{
+	height: auto;
+	background-color: #F2F2F2;
+	display: flex;
+	width: 100%;
+
+
+}
+
+.circulo{
+	float: left;
+	width: ;
+	height: ;
+	display: inline;
+	width: 340px;
+	height: 340px;
+	background-color: white;
+	margin: 2%;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-webñit-border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/ara.jpg);
+
+}
+
+.circulo img{
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.texto{
+	display: inline;
+	font-family: 'Candal', sans-serif;
+	padding: 20px;
+
+
+}
+
+.texto h1{
+	color: purple;
+}
+
+.texto p{
+	color: #ccc;
+}
+.grid{
+
+	
+	display: block;
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+.cuadro{
+	width: 23%;
+	height: 25vw;
+	margin: 1%;
+	background-color: white;
+	float: left;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.cuadro img{
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
